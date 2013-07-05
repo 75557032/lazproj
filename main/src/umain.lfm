@@ -1,9 +1,11 @@
 object frmMain: TfrmMain
   Left = 235
   Height = 449
-  Top = 129
+  Top = 130
   Width = 795
   Caption = 'frmMain'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
   LCLVersion = '1.1'
   WindowState = wsMaximized
 end

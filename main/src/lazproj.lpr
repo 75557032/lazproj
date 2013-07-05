@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, umain
+  Forms, umain, uselfconst, uselfvar, uselffunction, uselfconfig, uselftype
   { you can add units after this };
 
 {$R *.res}
@@ -15,7 +15,18 @@ uses
 begin
   RequireDerivedFormResource := True;
   Application.Initialize;
-  Application.CreateForm(TfrmMain, frmMain);
-  Application.Run;
+  if not JianChaJieGou then
+  begin
+    Exit;
+  end;
+  InitIniFile;
+  try
+    Application.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
+    Application.ShowMainForm:=False;
+    Application.CreateForm(TfrmMain, frmMain);
+    Application.Run;
+  finally
+    FinaliFile;
+  end;
 end.
 

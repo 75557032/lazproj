@@ -35,7 +35,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="7">
       <Unit0>
         <Filename Value="lazproj.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -49,6 +49,31 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="umain"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="uselfconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uselfconst"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uselfvar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uselfvar"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uselffunction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uselffunction"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uselfconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uselfconfig"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uselftype.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uselftype"/>
+      </Unit6>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -82,6 +107,7 @@
       <CompilerMessages>
         <MsgFileName Value=""/>
       </CompilerMessages>
+      <CustomOptions Value="-dUseCThreads"/>
       <CompilerPath Value="$(CompPath)"/>
     </Other>
   </CompilerOptions>
