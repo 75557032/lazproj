@@ -22,13 +22,15 @@ unit umain;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, uselfvar, uselfconst, uselfconfig;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, ExtCtrls, uselfvar,
+  uselfconst, uselfconfig;
 
 type
 
   { TfrmMain }
 
   TfrmMain = class(TForm)
+    ti_icon: TTrayIcon;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
   private
@@ -61,6 +63,7 @@ end;
 procedure TfrmMain.InitMainForm;
 begin
   Self.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
+  ti_icon.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
   Application.Title:=ReadSysConfig(sys_config_biaoti,sys_config_chengxu_biaoti);
   Self.Caption:=ReadSysConfig(sys_config_biaoti,sys_config_zhuchuangti_biaoti);
   Self.WindowState:=wsMaximized;

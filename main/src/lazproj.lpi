@@ -35,7 +35,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="7">
+    <Units Count="10">
       <Unit0>
         <Filename Value="lazproj.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -74,6 +74,21 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselftype"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="..\..\publicunit\upublictype.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="upublictype"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\publicunit\upublicvar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="upublicvar"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\publicunit\upublicconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="upublicconst"/>
+      </Unit9>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -84,6 +99,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\..\publicunit"/>
       <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>

@@ -18,7 +18,6 @@ const
 
   sys_configdefault='';
 
-  sys_datetimeformat='yyyy-mm-dd hh:nn:ss';
   sys_config_biaoti='SysConfig';
   sys_config_chengxu_biaoti='ChengXuBiaoTi';
   sys_config_zhuchuangti_biaoti='ZhuChuangTiBiaoTi';

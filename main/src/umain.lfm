@@ -8,4 +8,9 @@ object frmMain: TfrmMain
   OnDestroy = FormDestroy
   LCLVersion = '1.1'
   WindowState = wsMaximized
+  object ti_icon: TTrayIcon
+    Visible = True
+    left = 728
+    top = 368
+  end
 end

@@ -4,17 +4,15 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="7">
+    <Units Count="12">
       <Unit0>
         <Filename Value="lazproj.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="lazproj"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="6"/>
+        <TopLine Value="12"/>
         <CursorPos X="49" Y="22"/>
-        <UsageCount Value="25"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="28"/>
       </Unit0>
       <Unit1>
         <Filename Value="umain.pas"/>
@@ -23,12 +21,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="umain"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="50"/>
-        <CursorPos X="78" Y="65"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="53"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -36,62 +33,101 @@
         <Filename Value="uselfconst.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselfconst"/>
-        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="3"/>
-        <CursorPos X="28" Y="16"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
+        <TopLine Value="11"/>
+        <CursorPos X="17" Y="14"/>
+        <UsageCount Value="27"/>
       </Unit2>
       <Unit3>
         <Filename Value="uselfvar.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselfvar"/>
-        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="25" Y="11"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
+        <CursorPos X="13" Y="7"/>
+        <UsageCount Value="27"/>
       </Unit3>
       <Unit4>
         <Filename Value="uselffunction.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselffunction"/>
-        <EditorIndex Value="6"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="10"/>
+        <TopLine Value="1"/>
         <CursorPos X="51" Y="8"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="27"/>
       </Unit4>
       <Unit5>
         <Filename Value="uselfconfig.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselfconfig"/>
-        <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="12"/>
+        <TopLine Value="4"/>
         <CursorPos X="71" Y="8"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="27"/>
       </Unit5>
       <Unit6>
         <Filename Value="uselftype.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselftype"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="40" Y="13"/>
+        <UsageCount Value="27"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\publicunit\upublictype.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="upublictype"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <CursorPos X="29" Y="38"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\publicunit\upublicvar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="upublicvar"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="10" Y="13"/>
-        <UsageCount Value="24"/>
+        <CursorPos X="4" Y="12"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
-      </Unit6>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\publicunit\upublicconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="upublicconst"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="18" Y="29"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\codetyphon\fpcsrc\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="308"/>
+        <CursorPos X="3" Y="317"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\codetyphon\fpcsrc\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1352"/>
+        <CursorPos X="2" Y="1367"/>
+        <UsageCount Value="10"/>
+      </Unit11>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="12" HistoryIndex="11">
+    <JumpHistory Count="11" HistoryIndex="10">
       <Position1>
         <Filename Value="umain.pas"/>
         <Caret Line="14" Column="21" TopLine="1"/>
@@ -109,37 +145,33 @@
         <Caret Line="4" Column="10" TopLine="1"/>
       </Position4>
       <Position5>
-        <Filename Value="uselfvar.pas"/>
-        <Caret Line="17" Column="92" TopLine="1"/>
+        <Filename Value="umain.pas"/>
+        <Caret Line="33" Column="5" TopLine="20"/>
       </Position5>
       <Position6>
-        <Filename Value="uselffunction.pas"/>
-        <Caret Line="29" Column="41" TopLine="10"/>
+        <Filename Value="umain.pas"/>
+        <Caret Line="57" Column="3" TopLine="35"/>
       </Position6>
       <Position7>
-        <Filename Value="lazproj.lpr"/>
-        <Caret Line="22" Column="3" TopLine="6"/>
+        <Filename Value="umain.pas"/>
+        <Caret Line="58" Column="26" TopLine="41"/>
       </Position7>
       <Position8>
         <Filename Value="umain.pas"/>
-        <Caret Line="33" Column="5" TopLine="20"/>
+        <Caret Line="70" Column="28" TopLine="45"/>
       </Position8>
       <Position9>
         <Filename Value="umain.pas"/>
-        <Caret Line="57" Column="3" TopLine="35"/>
+        <Caret Line="60" Column="18" TopLine="50"/>
       </Position9>
       <Position10>
-        <Filename Value="umain.pas"/>
-        <Caret Line="58" Column="26" TopLine="41"/>
+        <Filename Value="..\..\publicunit\upublictype.pas"/>
+        <Caret Line="11" Column="52" TopLine="1"/>
       </Position10>
       <Position11>
-        <Filename Value="umain.pas"/>
-        <Caret Line="70" Column="28" TopLine="45"/>
+        <Filename Value="..\..\publicunit\upublictype.pas"/>
+        <Caret Line="19" Column="8" TopLine="3"/>
       </Position11>
-      <Position12>
-        <Filename Value="uselfconst.pas"/>
-        <Caret Line="22" Column="20" TopLine="4"/>
-      </Position12>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
