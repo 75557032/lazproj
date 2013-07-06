@@ -33,10 +33,12 @@
         <Filename Value="uselfconst.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uselfconst"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="11"/>
-        <CursorPos X="17" Y="14"/>
+        <TopLine Value="1"/>
+        <CursorPos X="74" Y="20"/>
         <UsageCount Value="27"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="uselfvar.pas"/>
@@ -81,7 +83,7 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="25"/>
+        <TopLine Value="12"/>
         <CursorPos X="29" Y="38"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
@@ -90,7 +92,7 @@
         <Filename Value="..\..\publicunit\upublicvar.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="upublicvar"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="4" Y="12"/>
@@ -101,10 +103,10 @@
         <Filename Value="..\..\publicunit\upublicconst.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="upublicconst"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
-        <CursorPos X="18" Y="29"/>
+        <TopLine Value="7"/>
+        <CursorPos X="9" Y="31"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit9>

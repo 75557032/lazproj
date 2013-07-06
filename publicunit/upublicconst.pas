@@ -28,6 +28,8 @@ const
   tx_xiazaifile=4;
   tx_fasongstr=5;
 
+  tsdksl_buxianzhi=1;
+
 implementation
 
 end.
