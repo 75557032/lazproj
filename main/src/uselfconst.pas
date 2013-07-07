@@ -21,6 +21,7 @@ const
   sys_config_biaoti='SysConfig';
   sys_config_chengxu_biaoti='ChengXuBiaoTi';
   sys_config_zhuchuangti_biaoti='ZhuChuangTiBiaoTi';
+  sys_config_tongxinchajian_biaoti='TongXinChaJian';
 
 implementation
 

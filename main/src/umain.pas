@@ -46,6 +46,8 @@ var
 
 implementation
 
+uses upublicvar;
+
 {$R *.lfm}
 
 { TfrmMain }
@@ -62,6 +64,7 @@ end;
 
 procedure TfrmMain.InitMainForm;
 begin
+  InitTongXinChaJianList;
   Self.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
   ti_icon.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
   Application.Title:=ReadSysConfig(sys_config_biaoti,sys_config_chengxu_biaoti);
@@ -72,7 +75,7 @@ end;
 
 procedure TfrmMain.FinalizForm;
 begin
-  //
+  FinalizTongXinChaJianList;
 end;
 
 end.

@@ -30,6 +30,18 @@ const
 
   tsdksl_buxianzhi=1;
 
+  mk_chushi_kejian=0;
+  mk_chushi_feikejian=1;
+
+  mk_chushi_keyong=0;
+  mk_chushi_feikeyong=1;
+
+  tx_chajian_getpublicfunction='GetPublicFunction';
+  tx_chajian_initchajian='InitChaJian';
+  tx_chajian_finalizchajian='FinalizChaJian';
+
+  error_chuangjiantongxinshibai='创建通信插件失败';
+
 implementation
 
 end.
