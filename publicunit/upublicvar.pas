@@ -14,9 +14,11 @@ procedure InitTongXinChaJianList;
 procedure FinalizTongXinChaJianList;
 function GetTongXinChaJian(const AChaJianMing:string):TPublicFunctionType; overload;
 function GetTongXinChaJian(const AIndex:NativeInt):TPublicFunctionType; overload;
-function JiaZaiTongXinChaJian(const AChaJianMing:string):Boolean;
+function JiaZaiTongXinChaJian(AChaJianMingList:TStrings):Boolean;
 
 implementation
+
+uses upublicconst;
 
 procedure InitTongXinChaJianList;
 begin
@@ -24,7 +26,13 @@ begin
 end;
 
 procedure FinalizTongXinChaJianList;
+var
+  i:Integer;
 begin
+  for i:=gTongXinChaJianList.Count-1 downto 0 do
+  begin
+    TPublicFunctionType(gTongXinChaJianList.Objects[i]).Free;
+  end;
   FreeAndNil(gTongXinChaJianList);
 end;
 
@@ -48,28 +56,28 @@ begin
   end;
 end;
 
-function JiaZaiTongXinChaJian(const AChaJianMing: string): Boolean;
-const TongXinChaJianFenGeFu=';';
+function JiaZaiTongXinChaJian(AChaJianMingList:TStrings):Boolean;
 var
-  LTempList:TStrings;
   i:Integer;
   LChaJianMing:PChar;
   LChaJian:string;
   LTempTongXinChaJian:TPublicFunctionType;
 begin
-  LTempList:=TStringList.Create;
   try
-    LTempList.Delimiter:=TongXinChaJianFenGeFu;
-    LTempList.DelimitedText:=AChaJianMing;
-    for i:=0 to LTempList.Count-1 do
+    for i:=0 to AChaJianMingList.Count-1 do
     begin
-      LChaJian:=LTempList[i];
-      LChaJianMing:=PChar(LChaJian);
+      LChaJian:=AChaJianMingList[i];
+    {$IFDEF UNIX}
+      LChaJianMing:=PChar(ExtractFilePath(ParamStr(0))+so_quanzhui+LChaJian+so_houzhui);
+    {$ELSE}
+      LChaJianMing:=PChar(ExtractFilePath(ParamStr(0))+LChaJian+dll_houzhui);
+    {$ENDIF}
       LTempTongXinChaJian:=TPublicFunctionType.Create(LChaJianMing);
       gTongXinChaJianList.AddObject(LChaJian,LTempTongXinChaJian);
     end;
-  finally
-    LTempList.Free;
+    Result:=True;
+  except
+    Result:=False;
   end;
 end;
 

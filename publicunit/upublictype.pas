@@ -42,6 +42,7 @@ type
   PInitType=^TInitType;
   TInitType=record
     App:TApplication;
+    TongXinChaJianList:TStrings;
     MoKuaiID:NativeInt;
     MoKuaiMing:string;
     ShouCan:string;
@@ -77,12 +78,14 @@ begin
 end;
 
 constructor TPublicFunctionType.Create(AModelName: PChar);
+const
+  Error_Nil=0;
 var
   LInitChaJian:TInitChaJian;
   LInitChaJianType:TInitChaJianType;
 begin
   FChaJianPointer:=JiaZaiChaJian(AModelName);
-  if FChaJianPointer=0 then
+  if FChaJianPointer=Error_Nil then
   begin
     raise Exception.Create(error_chuangjiantongxinshibai);
   end;

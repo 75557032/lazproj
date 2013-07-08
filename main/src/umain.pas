@@ -36,6 +36,7 @@ type
   private
     procedure InitMainForm;
     procedure FinalizForm;
+    function JiaZaiTongXinAPI:Boolean;
     { private declarations }
   public
     { public declarations }
@@ -65,6 +66,7 @@ end;
 procedure TfrmMain.InitMainForm;
 begin
   InitTongXinChaJianList;
+  JiaZaiTongXinAPI;
   Self.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
   ti_icon.Icon.LoadFromFile(gKuangJiaJieGouLeiXing.IconPath);
   Application.Title:=ReadSysConfig(sys_config_biaoti,sys_config_chengxu_biaoti);
@@ -76,6 +78,20 @@ end;
 procedure TfrmMain.FinalizForm;
 begin
   FinalizTongXinChaJianList;
+end;
+
+function TfrmMain.JiaZaiTongXinAPI: Boolean;
+var
+  LTempList:TStrings;
+begin
+  LTempList:=TStringList.Create;
+  try
+    LTempList.Delimiter:=sys_config_tongxinchajian_fengefu;
+    LTempList.DelimitedText:=ReadSysConfig(sys_config_biaoti,sys_config_tongxinchajian_biaoti);
+    Result:=JiaZaiTongXinChaJian(LTempList);
+  finally
+    LTempList.Free;
+  end;
 end;
 
 end.

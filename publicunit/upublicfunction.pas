@@ -6,10 +6,10 @@ interface
 
 uses
   Classes, SysUtils,
-{$IFDEF WINDOWS}
-  windows
-{$ELSE}
+{$IFDEF UNIX}
   dl
+{$ELSE}
+  windows
 {$ENDIF}
   ;
 
@@ -21,29 +21,29 @@ implementation
 
 function JiaZaiChaJian(const AModelName: PChar):NativeInt;
 begin
-{$IFDEF WINDOWS}
-  Result:=LoadLibrary(AModelName);
-{$ELSE}
+{$IFDEF UNIX}
   Result:=NativeInt(dlopen(AModelName,RTLD_LAZY));
+{$ELSE}
+  Result:=LoadLibrary(AModelName);
 {$ENDIF}
 end;
 
 function HuoQuChaJianHanShu(const AChaJianPointer: NativeInt;
   const AHanShuMing: PChar): Pointer;
 begin
-{$IFDEF WINDOWS}
-  Result:=GetProcAddress(AChaJianPointer,AHanShuMing);
-{$ELSE}
+{$IFDEF UNIX}
   Result:=dlsym(AChaJianPointer,AHanShuMing);
+{$ELSE}
+  Result:=GetProcAddress(AChaJianPointer,AHanShuMing);
 {$ENDIF}
 end;
 
 procedure ShiFangChaJian(const AChaJianPointer:NativeInt);
 begin
-{$IFDEF WINDOWS}
-  FreeLibrary(AChaJianPointer);
-{$ELSE}
+{$IFDEF UNIX}
   dlclose(AChaJianPointer);
+{$ELSE}
+  FreeLibrary(AChaJianPointer);
 {$ENDIF}
 end;
 

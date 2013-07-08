@@ -42,6 +42,13 @@ const
 
   error_chuangjiantongxinshibai='创建通信插件失败';
 
+{$IFDEF UNIX}
+  so_quanzhui='lib';
+  so_houzhui='.so';
+{$ELSE}
+  dll_houzhui='.dll';
+{$ENDIF}
+
 implementation
 
 end.

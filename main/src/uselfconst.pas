@@ -22,6 +22,7 @@ const
   sys_config_chengxu_biaoti='ChengXuBiaoTi';
   sys_config_zhuchuangti_biaoti='ZhuChuangTiBiaoTi';
   sys_config_tongxinchajian_biaoti='TongXinChaJian';
+  sys_config_tongxinchajian_fengefu=';';
 
 implementation
 
