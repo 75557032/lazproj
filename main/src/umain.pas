@@ -22,14 +22,18 @@ unit umain;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, ExtCtrls, uselfvar,
-  uselfconst, uselfconfig;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, ExtCtrls, Menus,
+  ComCtrls, ActnList, uselfvar, uselfconst, uselfconfig;
 
 type
 
   { TfrmMain }
 
   TfrmMain = class(TForm)
+    actList: TActionList;
+    bj_img: TImage;
+    mm_menu: TMainMenu;
+    sb_bar: TStatusBar;
     ti_icon: TTrayIcon;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -47,7 +51,7 @@ var
 
 implementation
 
-uses upublicvar;
+uses upublicvar,upublicconst;
 
 {$R *.lfm}
 
@@ -55,6 +59,7 @@ uses upublicvar;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
+  bj_img.Picture.LoadFromFile(bj_imgpath);
   InitMainForm;
 end;
 

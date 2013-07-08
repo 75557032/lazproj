@@ -4,13 +4,39 @@ object frmMain: TfrmMain
   Top = 130
   Width = 795
   Caption = 'frmMain'
+  ClientHeight = 449
+  ClientWidth = 795
+  Menu = mm_menu
   OnCreate = FormCreate
   OnDestroy = FormDestroy
   LCLVersion = '1.1'
   WindowState = wsMaximized
+  object sb_bar: TStatusBar
+    Left = 0
+    Height = 20
+    Top = 429
+    Width = 795
+    Panels = <>
+  end
+  object bj_img: TImage
+    Left = 0
+    Height = 429
+    Top = 0
+    Width = 795
+    Align = alClient
+    Stretch = True
+  end
   object ti_icon: TTrayIcon
     Visible = True
     left = 728
     top = 368
+  end
+  object mm_menu: TMainMenu
+    left = 176
+    top = 134
+  end
+  object actList: TActionList
+    left = 264
+    top = 136
   end
 end

@@ -9,7 +9,7 @@ uses
 
 type
   TZhiXingSQL=function(const ASQL:string):NativeInt;
-  TChaXunSQL=function(const ASQL:string;const AStream:TStream):NativeInt;
+  TChaXunSQL=function(const ASQL:string; AStream:TStream):NativeInt;
   TShangChuanFile=function(const AClientFile,AServerFile:string):NativeInt;
   TXiaZaiFile=function(const AClientFile,AServerFile:string):NativeInt;
   TFaSongStr=function(const AStr:string):string;
@@ -46,9 +46,6 @@ type
     MoKuaiID:NativeInt;
     MoKuaiMing:string;
     ShouCan:string;
-    ChuShiKeJian:NativeInt;
-    ChuShiKeYong:NativeInt;
-    TongShiCunZai:NativeInt;
     MoKuaiLeiXing:NativeInt;
   end;
   TInitModel=function(const AInitType:TInitType):Boolean;

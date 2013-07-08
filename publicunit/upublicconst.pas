@@ -45,8 +45,10 @@ const
 {$IFDEF UNIX}
   so_quanzhui='lib';
   so_houzhui='.so';
+  bj_imgpath='./bj_img.jpg';
 {$ELSE}
   dll_houzhui='.dll';
+  bj_imgpath='.\bj_img.jpg';
 {$ENDIF}
 
 implementation
