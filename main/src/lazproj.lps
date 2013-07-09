@@ -12,7 +12,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="24" Y="29"/>
-        <UsageCount Value="43"/>
+        <UsageCount Value="46"/>
       </Unit0>
       <Unit1>
         <Filename Value="umain.pas"/>
@@ -24,9 +24,9 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="53"/>
-        <CursorPos X="21" Y="76"/>
-        <UsageCount Value="43"/>
+        <TopLine Value="13"/>
+        <CursorPos X="78" Y="44"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -37,7 +37,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="3"/>
         <CursorPos X="36" Y="25"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="45"/>
       </Unit2>
       <Unit3>
         <Filename Value="uselfvar.pas"/>
@@ -46,7 +46,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="42" Y="20"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="45"/>
       </Unit3>
       <Unit4>
         <Filename Value="uselffunction.pas"/>
@@ -55,7 +55,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="51" Y="8"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="45"/>
       </Unit4>
       <Unit5>
         <Filename Value="uselfconfig.pas"/>
@@ -64,7 +64,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="4"/>
         <CursorPos X="71" Y="8"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="45"/>
       </Unit5>
       <Unit6>
         <Filename Value="uselftype.pas"/>
@@ -73,16 +73,18 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="40" Y="13"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="45"/>
       </Unit6>
       <Unit7>
         <Filename Value="..\..\publicunit\upublictype.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="upublictype"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="89"/>
-        <CursorPos X="41" Y="12"/>
-        <UsageCount Value="37"/>
+        <TopLine Value="50"/>
+        <CursorPos X="55" Y="70"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="..\..\publicunit\upublicvar.pas"/>
@@ -91,7 +93,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="61" Y="34"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="38"/>
       </Unit8>
       <Unit9>
         <Filename Value="..\..\publicunit\upublicconst.pas"/>
@@ -100,7 +102,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="23" Y="51"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="38"/>
       </Unit9>
       <Unit10>
         <Filename Value="..\..\publicunit\upublicfunction.pas"/>
@@ -109,7 +111,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="13"/>
         <CursorPos X="3" Y="14"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="31"/>
       </Unit10>
       <Unit11>
         <Filename Value="C:\codetyphon\fpcsrc\rtl\inc\systemh.inc"/>
@@ -238,7 +240,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="8" HistoryIndex="7">
+    <JumpHistory Count="25" HistoryIndex="24">
       <Position1>
         <Filename Value="umain.pas"/>
         <Caret Line="69" Column="21" TopLine="50"/>
@@ -271,6 +273,74 @@
         <Filename Value="umain.pas"/>
         <Caret Line="62" Column="41" TopLine="49"/>
       </Position8>
+      <Position9>
+        <Filename Value="umain.pas"/>
+        <Caret Line="76" Column="21" TopLine="53"/>
+      </Position9>
+      <Position10>
+        <Filename Value="umain.pas"/>
+        <Caret Line="75" Column="21" TopLine="52"/>
+      </Position10>
+      <Position11>
+        <Filename Value="umain.pas"/>
+        <Caret Line="60" Column="6" TopLine="10"/>
+      </Position11>
+      <Position12>
+        <Filename Value="umain.pas"/>
+        <Caret Line="61" Column="6" TopLine="35"/>
+      </Position12>
+      <Position13>
+        <Filename Value="umain.pas"/>
+        <Caret Line="49" Column="10" TopLine="36"/>
+      </Position13>
+      <Position14>
+        <Filename Value="umain.pas"/>
+        <Caret Line="50" Column="10" TopLine="37"/>
+      </Position14>
+      <Position15>
+        <Filename Value="umain.pas"/>
+        <Caret Line="49" Column="10" TopLine="36"/>
+      </Position15>
+      <Position16>
+        <Filename Value="umain.pas"/>
+        <Caret Line="51" Column="113" TopLine="7"/>
+      </Position16>
+      <Position17>
+        <Filename Value="umain.pas"/>
+        <Caret Line="52" Column="113" TopLine="26"/>
+      </Position17>
+      <Position18>
+        <Filename Value="umain.pas"/>
+        <Caret Line="51" Column="113" TopLine="26"/>
+      </Position18>
+      <Position19>
+        <Filename Value="umain.pas"/>
+        <Caret Line="53" Column="113" TopLine="27"/>
+      </Position19>
+      <Position20>
+        <Filename Value="umain.pas"/>
+        <Caret Line="52" Column="113" TopLine="27"/>
+      </Position20>
+      <Position21>
+        <Filename Value="umain.pas"/>
+        <Caret Line="26" Column="3" TopLine="12"/>
+      </Position21>
+      <Position22>
+        <Filename Value="umain.pas"/>
+        <Caret Line="35" Column="31" TopLine="22"/>
+      </Position22>
+      <Position23>
+        <Filename Value="umain.pas"/>
+        <Caret Line="45" Column="16" TopLine="25"/>
+      </Position23>
+      <Position24>
+        <Filename Value="umain.pas"/>
+        <Caret Line="44" Column="16" TopLine="25"/>
+      </Position24>
+      <Position25>
+        <Filename Value="umain.pas"/>
+        <Caret Line="43" Column="16" TopLine="25"/>
+      </Position25>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

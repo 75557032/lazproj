@@ -18,14 +18,6 @@ object frmMain: TfrmMain
     Width = 795
     Panels = <>
   end
-  object bj_img: TImage
-    Left = 0
-    Height = 429
-    Top = 0
-    Width = 795
-    Align = alClient
-    Stretch = True
-  end
   object ti_icon: TTrayIcon
     Visible = True
     left = 728

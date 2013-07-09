@@ -8,7 +8,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, umain, uselfconst, uselfvar, uselffunction, uselfconfig, uselftype,
-  upublictype, upublicvar, upublicconst, upublicfunction
+  upublictype, upublicvar, upublicconst, upublicfunction, pl_rx, pl_powerpdf
   { you can add units after this };
 
 {$R *.res}

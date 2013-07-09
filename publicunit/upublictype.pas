@@ -60,6 +60,15 @@ type
     FinalizModel:TFinalizModel;
   end;
 
+  TKeShiHuaMoKuai=class(TForm)
+
+  end;
+  TFeiKeShiHuaMoKuai=class(TComponent)
+
+  end;
+  TKeShiHuaMoKuaiClass=class of TKeShiHuaMoKuai;
+  TFeiKeShiHuaMoKuaiClass=class of TFeiKeShiHuaMoKuai;
+
 implementation
 
 uses upublicfunction,upublicconst;

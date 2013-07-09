@@ -22,8 +22,8 @@ unit umain;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, ExtCtrls, Menus,
-  ComCtrls, ActnList, uselfvar, uselfconst, uselfconfig;
+  Classes, SysUtils, FileUtil, Forms, Controls,Graphics, Menus,
+  ActnList, ComCtrls, ExtCtrls, uselfvar, uselfconst, uselfconfig;
 
 type
 
@@ -31,7 +31,6 @@ type
 
   TfrmMain = class(TForm)
     actList: TActionList;
-    bj_img: TImage;
     mm_menu: TMainMenu;
     sb_bar: TStatusBar;
     ti_icon: TTrayIcon;
@@ -59,7 +58,6 @@ uses upublicvar,upublicconst;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  bj_img.Picture.LoadFromFile(bj_imgpath);
   InitMainForm;
 end;
 
