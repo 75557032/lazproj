@@ -32,6 +32,7 @@ type
   TfrmMain = class(TForm)
     actList: TActionList;
     mm_menu: TMainMenu;
+    PageControl1: TPageControl;
     sb_bar: TStatusBar;
     ti_icon: TTrayIcon;
     procedure FormCreate(Sender: TObject);
