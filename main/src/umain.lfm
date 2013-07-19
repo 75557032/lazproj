@@ -13,14 +13,14 @@ object frmMain: TfrmMain
   WindowState = wsMaximized
   object sb_bar: TStatusBar
     Left = 0
-    Height = 20
-    Top = 429
+    Height = 22
+    Top = 427
     Width = 795
     Panels = <>
   end
-  object PageControl1: TPageControl
+  object gongzuoqu: TPageControl
     Left = 0
-    Height = 429
+    Height = 427
     Top = 0
     Width = 795
     Align = alClient

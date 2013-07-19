@@ -32,7 +32,7 @@ type
   TfrmMain = class(TForm)
     actList: TActionList;
     mm_menu: TMainMenu;
-    PageControl1: TPageControl;
+    gongzuoqu: TPageControl;
     sb_bar: TStatusBar;
     ti_icon: TTrayIcon;
     procedure FormCreate(Sender: TObject);
@@ -41,6 +41,8 @@ type
     procedure InitMainForm;
     procedure FinalizForm;
     function JiaZaiTongXinAPI:Boolean;
+    procedure LoadALLChaJian;
+    procedure FreeALLChaJian;
     { private declarations }
   public
     { public declarations }
