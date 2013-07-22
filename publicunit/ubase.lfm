@@ -1,0 +1,8 @@
+object frmBase: TfrmBase
+  Left = 231
+  Height = 240
+  Top = 145
+  Width = 320
+  Caption = 'frmBase'
+  LCLVersion = '1.1'
+end

@@ -37,6 +37,7 @@ type
     ti_icon: TTrayIcon;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
+    procedure gongzuoquCloseTabClicked(Sender: TObject);
   private
     procedure InitMainForm;
     procedure FinalizForm;
@@ -45,6 +46,10 @@ type
     procedure FreeALLChaJian;
     { private declarations }
   public
+//    function OpenShowPageMode():TForm;
+//    function OpenShowMode():TForm;
+//    function OpenShowModelMode():TForm;
+//    function OpenRunMode():TForm;
     { public declarations }
   end;
 
@@ -67,6 +72,11 @@ end;
 procedure TfrmMain.FormDestroy(Sender: TObject);
 begin
   FinalizForm;
+end;
+
+procedure TfrmMain.gongzuoquCloseTabClicked(Sender: TObject);
+begin
+  //
 end;
 
 procedure TfrmMain.InitMainForm;
@@ -98,6 +108,16 @@ begin
   finally
     LTempList.Free;
   end;
+end;
+
+procedure TfrmMain.LoadALLChaJian;
+begin
+
+end;
+
+procedure TfrmMain.FreeALLChaJian;
+begin
+
 end;
 
 end.

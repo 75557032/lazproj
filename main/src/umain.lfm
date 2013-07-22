@@ -13,18 +13,19 @@ object frmMain: TfrmMain
   WindowState = wsMaximized
   object sb_bar: TStatusBar
     Left = 0
-    Height = 22
-    Top = 427
+    Height = 20
+    Top = 429
     Width = 795
     Panels = <>
   end
   object gongzuoqu: TPageControl
     Left = 0
-    Height = 427
+    Height = 429
     Top = 0
     Width = 795
     Align = alClient
     TabOrder = 1
+    OnCloseTabClicked = gongzuoquCloseTabClicked
     Options = [nboShowCloseButtons]
   end
   object ti_icon: TTrayIcon

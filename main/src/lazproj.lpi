@@ -22,6 +22,9 @@
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="1">
+        <Item1 ID="424989743326" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="qt"/>
+      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -47,7 +50,7 @@
         <PackageName Value="LCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="11">
+    <Units Count="12">
       <Unit0>
         <Filename Value="lazproj.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -106,6 +109,14 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="upublicfunction"/>
       </Unit10>
+      <Unit11>
+        <Filename Value="..\..\publicunit\ubase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ubase"/>
+      </Unit11>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -144,7 +155,6 @@
       <CustomOptions Value="-dUseCThreads"/>
       <CompilerPath Value="$(CompPath)"/>
     </Other>
-    <LCLWidgetType Value="qt"/>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">
