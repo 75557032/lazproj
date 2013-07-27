@@ -22,7 +22,7 @@ unit umain;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls,Graphics, Menus,
+  Classes, SysUtils, FileUtil, VirtualTable, Forms, Controls,Graphics, Menus,
   ActnList, ComCtrls, ExtCtrls, uselfvar, uselfconst, uselfconfig;
 
 type
@@ -35,6 +35,7 @@ type
     gongzuoqu: TPageControl;
     sb_bar: TStatusBar;
     ti_icon: TTrayIcon;
+    ChaJianTable: TVirtualTable;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure gongzuoquCloseTabClicked(Sender: TObject);

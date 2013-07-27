@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
-  Left = 235
+  Left = 412
   Height = 449
-  Top = 130
+  Top = 115
   Width = 795
   Caption = 'frmMain'
   ClientHeight = 449
@@ -40,5 +40,13 @@ object frmMain: TfrmMain
   object actList: TActionList
     left = 264
     top = 136
+  end
+  object ChaJianTable: TVirtualTable
+    FilterOptions = []
+    left = 79
+    top = 78
+    Data = {
+      03000000000000000000
+    }
   end
 end

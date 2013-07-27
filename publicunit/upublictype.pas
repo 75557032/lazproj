@@ -50,24 +50,13 @@ type
   end;
   TInitModel=function(const AInitType:TInitType):Boolean;
   TGetModelClass=function():NativeInt;
-  TGetModelMode=function():NativeInt;
   TFinalizModel=function():Boolean;
   PPublicModelType=^TPublicModelType;
   TPublicModelType=record
     InitModel:TInitModel;
     GetModelClass:TGetModelClass;
-    GetModelMode:TGetModelMode;
     FinalizModel:TFinalizModel;
   end;
-
-  TKeShiHuaMoKuai=class(TForm)
-
-  end;
-  TFeiKeShiHuaMoKuai=class(TComponent)
-
-  end;
-  TKeShiHuaMoKuaiClass=class of TKeShiHuaMoKuai;
-  TFeiKeShiHuaMoKuaiClass=class of TFeiKeShiHuaMoKuai;
 
 implementation
 

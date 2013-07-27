@@ -36,19 +36,22 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="4">
+    <RequiredPackages Count="5">
       <Item1>
-        <PackageName Value="pl_powerpdf"/>
+        <PackageName Value="dac10"/>
       </Item1>
       <Item2>
-        <PackageName Value="pl_rx"/>
+        <PackageName Value="pl_powerpdf"/>
       </Item2>
       <Item3>
-        <PackageName Value="pl_fzcontrols"/>
+        <PackageName Value="pl_rx"/>
       </Item3>
       <Item4>
-        <PackageName Value="LCL"/>
+        <PackageName Value="pl_fzcontrols"/>
       </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
     </RequiredPackages>
     <Units Count="12">
       <Unit0>
